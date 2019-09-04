@@ -1,0 +1,158 @@
+/* MAIN PAGE */
+
+#main-sec{
+	background-color:#5e4e65;
+	padding-top:40px;
+	padding-bottom:225px;
+}
+
+.o-container{
+    margin:0 auto;
+    max-width:1440px;
+    min-width:320px;
+    padding:0 20px
+}
+
+.container-form {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	padding-bottom:45px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#e1e1e1;
+	padding:25px;
+	margin:50px 0;
+	border-radius:4px;
+}
+
+#contact h3 {
+	text-align:center;
+	color: #4c3a53;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom:20px;
+}
+
+#contact h4 {
+	text-align:center;
+	margin:5px 0 15px;
+	display:block;
+	font-size:20px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#8878c1;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#605067;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+.mapouter
+{
+	text-align:right;
+	height:225px;
+	width:60%;
+	float:left;
+}
+
+.gmap_canvas 
+{
+	overflow:hidden;
+	background:none!important;
+	height:225px;
+	width:100%;
+}
+
+.contact-info-1
+{
+	float:left;
+	padding-left:30px;
+	padding-top:52px;
+	width: 25%;
+	font-size:14px;
+
+}
+
+.contact-info-2
+{
+	float:left;
+	width: 25%;
+	padding-left:50px;
+	padding-top:52px;
+	font-size:14px;
+
+}
+
+.contact-info-3
+{
+	float:left;
+	width: 15%;
+	padding-left:60px;
+	padding-top:52px;
+	font-size:14px;
+	
+}
+
+.contact-details
+{
+	color:#000;
+	background-color:#7f6b88;
+	float:right;
+	width: 40%;
+	padding-top:10px;
+	padding-bottom:51px;
+}
+
+p#con-title
+{
+	color:#FFF;
+}

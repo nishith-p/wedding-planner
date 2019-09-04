@@ -1,0 +1,13 @@
+/* MAIN PAGE */
+
+#main-sec{
+	background-color:#faf5fb;
+	padding-bottom:600px;
+}
+
+.o-container{
+    margin:0 auto;
+    max-width:1440px;
+    min-width:320px;
+    padding:0 20px
+}

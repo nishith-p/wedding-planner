@@ -1,0 +1,141 @@
+#main-sec{
+	/*background-color:#faf5fb;*/
+	background-color:#e5e5e5;
+
+}
+
+#o-container{
+    margin:0 auto;
+    max-width:1440px;
+    min-width:320px;
+    padding:0 40px;
+	margin-right:40px;
+}
+
+.o-container{
+	background-color: #f8effa;
+	width: 1200px;
+	height: 500px;
+	margin: 20px 0px 50px 220px;
+	overflow:scroll;
+}
+
+
+.main-content {
+    margin-left: 210px;
+    font-size: 14px;
+    padding: 37px 30px;
+	border-right: 1px solid #bfbfbf;
+	border-left: 1px solid #bfbfbf;
+	height:100%;
+}
+
+.left-nav{
+	float:left;
+	height:100%;
+	width:211px;
+}
+
+.left-nav ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-top: 35px;
+	padding-left: 0px;
+	width: 210px;
+	background-color: #f8effa;
+}
+
+.left-nav li a {
+	display: block;
+	color: #525252;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+.left-nav li a.active {
+	background-color: #8878c1;
+	color: white;
+}
+
+.left-nav li a:hover:not(.active) {
+	background-color: #d8cdff;
+	color: #525252;
+}
+
+input[type=text], input[type=password], select {
+    width: 600px;
+    padding: 12px 20px;
+    margin-left: 220px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#p_id {
+	width: 600px;
+    padding: 12px 20px;
+    margin-left: 220px;
+	margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}	
+
+.pname {
+	margin-top: 15px;
+}
+
+.ptype {
+	margin-top: 15px;
+}
+
+.ppackage {
+	margin-top: 15px;
+}
+
+.pquan, .pprice {
+	width: 250px;
+    padding: 12px 20px;
+    margin-left: 220px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.pquan {
+	margin-top: 15px;
+}
+
+.pprice {
+	margin-left: 96px;
+}
+
+.add {
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 0 100px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: white;
+    color: #f44336;
+	border: 2px solid #f44336
+}
+
+input[type=file] {
+	margin-left: 220px;
+}
+
+.x {
+	margin: 20px 0 0 13px;
+}
+

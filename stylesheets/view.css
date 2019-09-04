@@ -1,0 +1,192 @@
+/* MAIN PAGE */
+
+#main-sec{
+	background-color:#faf5fb;
+	padding-bottom:60px;
+}
+
+.o-container{
+    margin:0 auto;
+    max-width:830px;
+    min-width:320px;
+    padding:0 20px;
+}
+
+.show-case-main{
+	width:50%; 
+	float:left;
+}
+
+.go-back{
+	padding-top:30px;
+	font-size:12px;
+}
+
+.go-back-a{
+	text-decoration:none;
+	color: #000;
+}
+	
+#show-case{
+	margin-top:30px;
+	height:500px;
+	border-style:solid;
+	border-color:#9d9d9d;
+}
+
+#show-case1{
+	margin-top:30px;
+	height:400px;
+	width:350px;
+	border-style:solid;
+	border-color:#9d9d9d;
+}
+
+#show-case2{
+	margin-top:30px;
+	height:350px;
+	width:380px;
+	border-style:solid;
+	border-color:#9d9d9d;
+}
+
+#show-case-1{
+	margin-top:30px;
+	margin-right:10px;
+	height:80px;
+	border-style:solid;
+	border-color:#9d9d9d;
+}
+
+.show-case-info{
+    width:50%;
+	margin-top:30px;
+	margin-bottom:0px;
+	height:560px; 
+	float:right;
+}
+
+.head-text{
+	font-size:24px;
+	font-weight:400;
+	letter-spacing:1px;
+	font-family:'Open Sans',sans-serif;
+	color:#303132;
+}
+
+.sub-text{
+	font-size:14px;
+	font-family:'Open Sans',sans-serif;
+	color:#303132;
+}
+
+.size-text{
+	margin-top:22px;
+	font-size:14px;
+	font-family:'Open Sans',sans-serif;
+	color:#303132;
+}
+
+.quantity-text{
+	margin-top:20px;
+	font-size:14px;
+	font-family:'Open Sans',sans-serif;
+	color:#303132;
+}
+
+.product-price{
+	font-size:24px;
+	font-family:'Open Sans',sans-serif;
+	font-weight:700;
+	color:#303132;
+}
+
+.product-colour{
+	margin-top: 20px;
+	font-size:14px;
+	color:#303132;
+}
+
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: vertical;
+}
+
+input[type=number]{
+	width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 26px;
+    resize: vertical;
+}
+
+input[type=submit] {
+	width: 100%;
+    background-color: #8878c1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn, .btn-success {
+	width: 100%;
+    background-color: #8878c1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	text-align:center;
+}
+
+.collapsible {
+  background-color: #e2e2e2;
+  color: #303132;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-radius:2px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: #9d9d9d;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: #303132;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  color: #303132;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.clear { clear: both};
+
